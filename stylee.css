@@ -1,0 +1,574 @@
+/*Start Main Roles */
+body {
+  background: #888;
+}
+.clearFx {
+  clear: both;
+}
+.comtainer {
+  margin: auto;
+  max-width: 1000px;
+}
+/*End Main Roles */
+
+/*start nave bar*/
+
+.Header {
+  background-image: url(http://www.whoa.in/download/lonely-yellow-leaf-beautiful-hd-wallpaper);
+  background-size: cover;
+}
+.intro {
+  text-align: center;
+  overflow: hidden;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.intro h1 {
+  font-size: 55px;
+  font-weight: bold;
+  color: #fff;
+  padding: 30px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+.intro h1 span:hover {
+  color: #2ecc71;
+}
+
+.intro h1:hover {
+  color: #000;
+
+  text-shadow: 1px 0px 14px #fff, 1px 9px 14px #fff, 1px -5px 8px #fff,
+    1px 0px 14px #fff;
+}
+.button {
+  background-color: rgba(0, 0, 0, 0.23);
+  border: none;
+  color: rgba(255, 255, 255, 0.99);
+  padding: 17px 77px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 32px 8px;
+  border-radius: 16px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+.button:hover {
+  color: #f2f2;
+  background-color: rgba(0, 0, 0, 0.43);
+  border: 1px solid #fff;
+}
+
+.Navebar {
+  background-color: #252f31;
+  color: #fff;
+  overflow: hidden;
+}
+.Navebar h2 {
+  float: left;
+  font-family: sans-serif;
+}
+.Navebar h2 span {
+  color: #2ecc71;
+}
+.Navebar h2 span:hover {
+  text-shadow: 1px 0px 14px #fff;
+}
+.Navebar ul {
+  list-style: none;
+  padding-left: 0;
+  overflow: hidden;
+  float: right;
+}
+.Navebar ul li {
+  float: left;
+  padding: 10px;
+}
+.Navebar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.Navebar ul li a:hover {
+  color: #2ecc71;
+  text-decoration: underline;
+}
+.Navebar ul li.Active a {
+  color: #2ecc71;
+}
+/*end nave bar*/
+
+/*Start Resume*/
+.rusm {
+  background-color: #f2f2f2;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.rusm h1 {
+  color: #000;
+}
+.rusm p {
+  font-stretch: ultra-condensed;
+  line-height: 30px;
+  font-weight: bold;
+  margin-top: 0px;
+  font-size: 18px;
+  text-align: center;
+}
+.rusm button {
+  background: none;
+  color: #2ecc71;
+  border: 3px solid #2ecc71;
+  padding: 8px;
+  float: initial;
+  margin-left: 7px;
+  width: 131px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.rusm button:hover {
+  color: #fff;
+  background-color: #2ecc71;
+}
+/*End Resume*/
+
+/*stat Portfolio*/
+.Portfolio {
+  background-color: #fff;
+  overflow: hidden;
+  font-stretch: ultra-condensed;
+}
+.TxtPortfolio {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.TxtPortfolio p {
+  text-align: center;
+  font-size: 19px;
+  padding-bottom: 20px;
+  font-stretch: ultra-condensed;
+}
+.imgPortfolio {
+  float: left;
+}
+.imgPortfolio > div {
+  width: 33.333%;
+  height: 301px;
+  padding-top: 20px;
+  float: left;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.imgPortfolio > div img {
+  border: 1px dashed #2ecc71;
+  box-shadow: 10px 19px 15px #cccccc;
+}
+.imgPortfolio > div img:hover {
+  transform: rotateY(0);
+  color: #999;
+}
+
+/*End portfolio*/
+
+/*Start Footer*/
+.act {
+  text-align: center;
+  margin-bottom: -15px;
+  margin-top: 20px;
+  width: 50%;
+  color: rgb(96, 92, 92);
+  font-weight: bold;
+}
+.footer {
+  background-color: #252f31;
+  overflow: hidden;
+}
+.LeftContact {
+  float: left;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 50%;
+  color: #fff;
+}
+.LeftContact p {
+  margin-left: 30px;
+  line-height: 15px;
+  width: 60%;
+  font-size: 10px;
+}
+.LeftContact p:hover {
+  margin-left: 30px;
+  line-height: 15px;
+  width: 60%;
+  font-size: 10px;
+  color: #0f0;
+  font-weight: bold;
+}
+
+.xl{
+  display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 20px;
+
+}
+.RightContact {
+  flex-basis: 40%;
+  /* float: left;
+  margin-bottom: 38px;
+  width: 48%;
+  margin-top: 13px;
+  margin-right: 20px; */
+}
+
+.RightContact h6 {
+  color: #fff;
+  font-size: 14px;
+  padding: 0px;
+  margin: 31px 1px 10px -4px;
+}
+.RightContact input {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  background: rgba(230, 230, 230, 0.5);
+  width: 100%;
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid rgba(46, 204, 113, 0.32);
+}
+
+.RightContact textarea {
+  color: #fff;
+  font-size: 14px;
+  background: rgba(230, 230, 230, 0.5);
+  width: 100%;
+  padding: 10px;
+  height: 105px;
+  border-radius: 10px;
+  border: 1px solid rgba(46, 204, 113, 0.32);
+}
+.RightContact button {
+  background: none;
+  color: #2ecc71;
+  border: 3px solid #2ecc71;
+  padding: 8px;
+  float: initial;
+  margin-top: 20px;
+  margin-left: 7px;
+  border-radius: 10px;
+  float: right;
+  width: 131px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.btn1 {
+  float: left;
+  background: none;
+  color: #2ecc71;
+  border: 3px solid #2ecc71;
+  padding: 8px;
+  float: initial;
+  margin-top: 20px;
+  margin-left: 7px;
+  border-radius: 10px;
+  float: right;
+  width: 131px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.btn2 {
+  background: none;
+  color: #2ecc71;
+  border: 3px solid #2ecc71;
+  padding: 8px;
+  float: initial;
+  margin-top: 20px;
+  margin-left: 7px;
+  border-radius: 10px;
+  width: 131px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.RightContact button:hover {
+  color: #fff;
+  background-color: #2ecc71;
+}
+/*End Footer*/
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wlxdr.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdr.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdr.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwlxdr.ttf)
+    format("truetype");
+}
+body {
+  background: #dce1df;
+  color: #4f585e;
+  font-family: "Source Sans Pro", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+a.btn {
+  background: #0096a0;
+  border-radius: 4px;
+  box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  display: inline-block;
+  padding: 6px 30px 8px;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.1s 0s ease-out;
+}
+.no-touch a.btn:hover {
+  background: #00a2ad;
+  box-shadow: 0px 8px 2px 0 rgba(0, 0, 0, 0.075);
+  transform: translateY(-2px);
+  transition: all 0.25s 0s ease-out;
+}
+.no-touch a.btn:active,
+a.btn:active {
+  background: #008a93;
+  box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.25);
+  transform: translate3d(0, 1px, 0);
+  transition: all 0.025s 0s ease-out;
+}
+div.cards {
+  margin: 80px auto;
+  max-width: 960px;
+  text-align: center;
+}
+div.card {
+  background: #ffffff;
+  display: inline-block;
+  margin: 8px;
+  max-width: 300px;
+  perspective: 1000;
+  position: relative;
+  text-align: left;
+  transition: all 0.3s 0s ease-in;
+  width: 300px;
+  z-index: 1;
+}
+div.card img {
+  max-width: 300px;
+}
+div.card .card__image-holder {
+  background: rgba(0, 0, 0, 0.1);
+  height: 0;
+  padding-bottom: 75%;
+}
+div.card div.card-title {
+  background: #ffffff;
+  padding: 6px 15px 10px;
+  position: relative;
+  z-index: 0;
+}
+div.card div.card-title a.toggle-info {
+  border-radius: 32px;
+  height: 32px;
+  padding: 0;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  width: 32px;
+}
+div.card div.card-title a.toggle-info span {
+  background: #ffffff;
+  display: block;
+  height: 2px;
+  position: absolute;
+  top: 16px;
+  transition: all 0.15s 0s ease-out;
+  width: 12px;
+}
+div.card div.card-title a.toggle-info span.left {
+  right: 14px;
+  transform: rotate(45deg);
+}
+div.card div.card-title a.toggle-info span.right {
+  left: 14px;
+  transform: rotate(-45deg);
+}
+div.card div.card-title h2 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  margin: 0;
+  padding: 0;
+}
+div.card div.card-title h2 small {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+div.card div.card-description {
+  padding: 0 15px 10px;
+  position: relative;
+  font-size: 14px;
+}
+div.card div.card-actions {
+  box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.075);
+  padding: 10px 15px 20px;
+  text-align: center;
+}
+div.card div.card-flap {
+  background: #d9d9d9;
+  position: absolute;
+  width: 100%;
+  transform-origin: top;
+  transform: rotateX(-90deg);
+}
+div.card div.flap1 {
+  transition: all 0.3s 0.3s ease-out;
+  z-index: -1;
+}
+div.card div.flap2 {
+  transition: all 0.3s 0s ease-out;
+  z-index: -2;
+}
+div.cards.showing div.card {
+  cursor: pointer;
+  opacity: 0.6;
+  transform: scale(0.88);
+}
+.no-touch div.cards.showing div.card:hover {
+  opacity: 0.94;
+  transform: scale(0.92);
+}
+div.card.show {
+  opacity: 1 !important;
+  transform: scale(1) !important;
+}
+div.card.show div.card-title a.toggle-info {
+  background: #ff6666 !important;
+}
+div.card.show div.card-title a.toggle-info span {
+  top: 15px;
+}
+div.card.show div.card-title a.toggle-info span.left {
+  right: 10px;
+}
+div.card.show div.card-title a.toggle-info span.right {
+  left: 10px;
+}
+div.card.show div.card-flap {
+  background: #ffffff;
+  transform: rotateX(0deg);
+}
+div.card.show div.flap1 {
+  transition: all 0.3s 0s ease-out;
+}
+div.card.show div.flap2 {
+  transition: all 0.3s 0.2s ease-out;
+}
+
+@media only screen and (max-width: 600px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Navebar ul {
+    float: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .Navebar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .Navebar h2 {
+    float: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  /* .act{
+    display: block;
+  } */
+  .LeftContact {
+    /* display: none; */
+    float: none;
+    flex-wrap: wrap;
+
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+  }
+  .RightContact {
+    /* float: none;
+    flex-wrap: wrap; */
+    margin: auto;
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+  }
+  .btn2 {
+    float: left !important;
+    /* margin: auto !important; */
+  }
+  .btn1 {
+    float: right !important;
+    /* margin: auto !important; */
+  }
+  /* .footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  } */
+  .xl {
+    display: flex;
+    align-items: center;
+
+    /* flex-direction: row; */
+    /* width: 100%; */
+  }
+}
